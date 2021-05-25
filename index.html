@@ -5,24 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="main.js"></script>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div class="nav">
-    <div class="logo"></div>
-    <div class="logoTxt">Przelicznik walut</div>
-</div>
-<div class="content">
-    <input type="number">
-    <select name="" id="">
-        <option value="EUR">EUR</option>
-        <option value="USD">USD</option>
-        <option value="CHF">CHF</option>
-    </select>
-    <button class="btn">Przelicz</button>
-    <p class="">To</p>
-    <span class="score"></span>
-</div>
+    <div class="nav">
+        <div class="logo">
+            <img src="img/imgLogo.jpg" width="120px" height="120px" alt="">
+        </div>
+        <div class="logoTxt">Currency converter</div>
+    </div>
+    <div class="content">
+        <input id="input" placeholder="Enter the amount" type="number">
+        <select name="" id="select">
+            <option class="option" value="EUR">EUR</option>
+            <option class="option" value="USD">USD</option>
+            <option class="option" value="CHF">CHF</option>
+        </select>
+        <button class="btn">Convert</button>
+        <p class="">THIS&nbsp</p>
+        <span class="score">0 zł</span>
+    </div>
+    <script src="js/main.js"></script>
 </body>
 </html>
