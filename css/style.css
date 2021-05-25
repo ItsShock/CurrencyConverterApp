@@ -17,14 +17,14 @@ body
 {
     display: flex;
     align-items: center;
-    width: 750px;
+    width: 850px;
     justify-content: space-between;
 }
 
 
 .logoTxt
 {
-    width: 575px;
+    width: 680px;
     height: 120px;
     border: 2px solid #111;
     margin-left: 50px;

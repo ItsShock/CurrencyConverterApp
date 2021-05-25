@@ -33,29 +33,6 @@ fetch("http://api.nbp.pl/api/exchangerates/tables/c/")
             scoreTxt.innerHTML = score.toFixed(2) + currency;
         }
     });
-    
-    select.addEventListener("input", (e) =>{
-        if(input.value === 0 || input.value === null)
-        {
-            error.textContent = "Please put a proper value!";
-        }
-        else
-        {
-            if(select.value === "EUR")
-            {
-                score = currencies.rates[3].ask * input.value;
-            }
-            else if (select.value === "USD")
-            {
-                score = currencies.rates[0].ask * input.value;
-            }
-            else
-            {
-                score = currencies.rates[5].ask * input.value;
-            }
-        }   
-        scoreTxt.innerHTML = score.toFixed(2) + currency;
-    });
 })
 .catch(err => console.log(err));
 
