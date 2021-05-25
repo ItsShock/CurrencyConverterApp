@@ -8,6 +8,8 @@
 * CHF
 
 to the Polish currency PLN.
+
+The project uses the opensource API of the Polish National Bank.
 ## TechnologiesProject is created with:
 * VanillaJS: ES6
 * CSS: 3
