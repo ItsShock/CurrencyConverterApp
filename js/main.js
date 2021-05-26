@@ -1,5 +1,5 @@
 let score = 0
-currency = " zł";
+currency = " PLN";
 
 fetch("http://api.nbp.pl/api/exchangerates/tables/c/")
 .then(data => data.json())
